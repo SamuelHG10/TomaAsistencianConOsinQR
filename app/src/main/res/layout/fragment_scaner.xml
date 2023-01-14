@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verdechilo"
+    tools:context=".Fragments.Scaner">
+
+
+    <ImageView
+        android:id="@+id/img_qr1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="190dp"
+        android:src="@mipmap/pruebaqr" />
+
+    <Button
+        android:id="@+id/btn_Escanear"
+        android:layout_width="146dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="150dp"
+        android:text="Escanear" />
+
+    <Button
+        android:id="@+id/btn_Cancelar"
+        android:layout_width="146dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="150dp"
+        android:text="Cancelar" />
+
+
+</FrameLayout>
